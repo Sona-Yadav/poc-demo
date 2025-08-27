@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo systemctl start httpd
 set -e
 APP_DIR=/home/ec2-user/app
 cd $APP_DIR
