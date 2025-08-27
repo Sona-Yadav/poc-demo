@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/app
+    destination: /var/www/html/
 permissions:
   - object: scripts/*.sh
     pattern: scripts/*.sh
