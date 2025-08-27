@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo systemctl stop httpd || true
 set -e
 APP_DIR=/home/ec2-user/app
 if [ -f "$APP_DIR/server.pid" ]; then
