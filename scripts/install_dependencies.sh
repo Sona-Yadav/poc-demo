@@ -4,7 +4,7 @@ echo "[install_dependencies] starting"
 
 # update & basic tools
 yum update -y
-yum install -y php-cli php-json php-mbstring unzip wget curl jq
+sudo yum install -y ruby wget unzip curl --allowerasing
 
 # install AWS CLI v2 if not present
 if ! command -v aws >/dev/null 2>&1; then
